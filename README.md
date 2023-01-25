@@ -1,0 +1,1 @@
+Dieses Plugin ist die momentane Soul-API.

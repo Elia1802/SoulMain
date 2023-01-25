@@ -1,0 +1,8 @@
+SoulMain:
+
+Es ist eine Art Bibliothek und Hilfsstellung für Ideen für SoulSMP.
+Besitzt mehrere Klassen, die von jedem Developer auf SoulSMP genutzt werden darf.
+Für Ideen die geändert oder verbessert werden sollen oder sogar was Neues hinzukommen soll,
+wird mit Elia abgesprochen.
+
+LG Elia

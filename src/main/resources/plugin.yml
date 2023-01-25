@@ -1,0 +1,19 @@
+name: SoulMain
+version: '${project.version}'
+main: de.elia.soulmain.SoulMain
+api-version: 1.19
+authors: [ Elia ]
+description: Alle Funktionen für die Tablist und für die Achievements und sonstige Sachen
+website: https://discord.gg/MSutgj93HZ
+loadbefore:
+  - SoulTablist
+  - SoulBoss
+permissions:
+  soulmain:
+    information:
+    admin:
+commands:
+  soulmain:
+    description: Der Command um das Plugin neu zu laden oder aus zu schalten
+  discord:
+    description: Der DiscordCommand für Soul
