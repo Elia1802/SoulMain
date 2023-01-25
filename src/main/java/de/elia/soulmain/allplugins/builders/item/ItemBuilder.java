@@ -22,7 +22,7 @@ import java.util.Map;
  * @extends
  * @description -
  */
-public class ItemBuilder implements Item{
+public class ItemBuilder {
 
     private final ItemStack itemStack;
 

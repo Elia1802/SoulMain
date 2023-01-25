@@ -1,9 +1,7 @@
 package de.elia.soulmain.thisplugin.commands.plugin;
 
-import de.elia.soulmain.Functions;
 import de.elia.soulmain.SoulMain;
 import de.elia.soulmain.allplugins.messages.builder.MessageBuilder;
-import de.elia.soulmain.allplugins.messages.builder.Messages;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -36,8 +34,8 @@ public class PluginCommand implements CommandExecutor , TabCompleter {
      */
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String @NotNull [] args) {
-        Messages messageBuilder = new MessageBuilder();
-        Functions functions = SoulMain.getInstance();
+        MessageBuilder messageBuilder = new MessageBuilder();
+        SoulMain functions = SoulMain.getInstance();
 
 
         //Requests the command length.

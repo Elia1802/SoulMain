@@ -11,10 +11,9 @@ import java.lang.String;
  * @author - Elia
  * @since - V. 1.0
  * @version - V. 1.0
- * @implements {@link Prefix}
  * @description - Creates all the prefixes you need.
  */
-public class PrefixClass implements Prefix {
+public class PrefixClass {
 
     public PrefixClass(){
 

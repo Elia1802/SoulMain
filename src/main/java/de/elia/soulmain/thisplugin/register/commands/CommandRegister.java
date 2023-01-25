@@ -1,8 +1,6 @@
 package de.elia.soulmain.thisplugin.register.commands;
 
-import de.elia.soulmain.SoulMain;
 import de.elia.soulmain.allplugins.messages.builder.MessageBuilder;
-import de.elia.soulmain.allplugins.messages.builder.Messages;
 import de.elia.soulmain.thisplugin.commands.discord.DiscordCommand;
 import de.elia.soulmain.thisplugin.commands.plugin.PluginCommand;
 import org.bukkit.Bukkit;
@@ -15,7 +13,7 @@ import org.bukkit.Bukkit;
  */
 public class CommandRegister {
 
-    private static final Messages messageBuilder =  new MessageBuilder();
+    private static final MessageBuilder messageBuilder =  new MessageBuilder();
 
     /**
      * @since - V. 1.0

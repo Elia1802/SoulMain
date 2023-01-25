@@ -41,11 +41,10 @@ import java.util.Set;
  * @author - Elia
  * @since - V. 1.0
  * @version - V. 1.0
- * @implements {@link de.elia.soulmain.allplugins.configuration.Configuration}
  * @description - This class is a huge collection of all configuration file functions. Here are methods to
  *                create and store and read values.
  */
-public class SoulConfiguration implements de.elia.soulmain.allplugins.configuration.Configuration {
+public class SoulConfiguration {
 
     public File file;
 

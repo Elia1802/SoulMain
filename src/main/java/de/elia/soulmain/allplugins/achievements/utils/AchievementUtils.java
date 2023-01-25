@@ -18,7 +18,7 @@ import org.jetbrains.annotations.NotNull;
  * @extends
  * @description -
  */
-public class AchievementUtils implements AchievementUtilsInterface{
+public class AchievementUtils {
 
     private final MiniMessage miniMessage = SoulMain.getMiniMessage();
 

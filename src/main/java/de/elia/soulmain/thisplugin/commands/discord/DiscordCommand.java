@@ -2,7 +2,6 @@ package de.elia.soulmain.thisplugin.commands.discord;
 
 import de.elia.soulmain.SoulMain;
 import de.elia.soulmain.allplugins.messages.builder.MessageBuilder;
-import de.elia.soulmain.allplugins.messages.prefix.Prefix;
 import de.elia.soulmain.allplugins.messages.prefix.PrefixClass;
 import de.elia.soulmain.thisplugin.register.configuration.ConfigurationRegister;
 import net.kyori.adventure.text.Component;
@@ -35,7 +34,7 @@ public class DiscordCommand implements CommandExecutor {
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
         MessageBuilder messageBuilder = new MessageBuilder();
-        Prefix prefix = new PrefixClass();
+        PrefixClass prefix = new PrefixClass();
 
         //If sender a Player
         if (!(sender instanceof Player)) {

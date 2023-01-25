@@ -21,12 +21,11 @@ import java.util.logging.Logger;
  * @author - Elia
  * @since - V. 1.0
  * @version - V. 1.0
- * @implements {@link Messages}
  * @description -This class simplifies the principle of the {@link MiniMessage}. If used correctly,
  *               you can save a lot of space. You don't need color codes of the {@link MiniMessage},
  *               no {@link ChatColor} and no {@link Component}s.
  */
-public class MessageBuilder implements Messages {
+public class MessageBuilder {
 
     private final Logger logger = Bukkit.getLogger();
 

@@ -1,6 +1,5 @@
 package de.elia.soulmain.thisplugin.register.configuration;
 
-import de.elia.soulmain.allplugins.configuration.Configuration;
 import de.elia.soulmain.thisplugin.configuration.SoulConfiguration;
 import org.bukkit.plugin.Plugin;
 import org.jetbrains.annotations.NotNull;
@@ -19,9 +18,9 @@ public class ConfigurationRegister {
         this.plugin = plugin;
     }
 
-    private Configuration discordConfiguration;
+    private SoulConfiguration discordConfiguration;
 
-    private Configuration achievement;
+    private SoulConfiguration achievement;
 
     /**
      * @description - This method creates all configuration files and saves any default values.
@@ -64,7 +63,7 @@ public class ConfigurationRegister {
      * @return discordConfiguration
      */
     @NotNull
-    public Configuration getDiscordConfiguration() {
+    public SoulConfiguration getDiscordConfiguration() {
         discordConfiguration = new SoulConfiguration(plugin , "Discord.yml");
         return discordConfiguration;
     }
@@ -73,7 +72,7 @@ public class ConfigurationRegister {
      * @description - This method is required to edit the Achievement Configuration in other classes.
      * @return achievement
      */
-    public Configuration getAchievement() {
+    public SoulConfiguration getAchievement() {
         achievement = new SoulConfiguration(plugin , "Achievement.yml");
         return achievement;
     }

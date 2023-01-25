@@ -6,10 +6,9 @@ import org.jetbrains.annotations.NotNull;
  * @author - Elia
  * @since - V. 1.0
  * @version - V. 1.0
- * @implements {@link AchievementStorageInterface}
  * @description - This class includes all achievements that exist. You can also get all the properties from the achievements.
  */
-public enum AchievementStorage implements AchievementStorageInterface {
+public enum AchievementStorage {
 
     DEFENTLYTHESLOWEST("Definitiv der langsamste" , "ddl" , "Trinke eine turtle master Potion"  , 15),
     BORINGDAY("Langweiliger Tag" , "lt" , "Tu nichts für 1 Minecraft-Tag" ,20),
